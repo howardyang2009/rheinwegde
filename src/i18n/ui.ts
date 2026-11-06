@@ -18,7 +18,7 @@ export const sections = [
   'research',
 ] as const;
 
-export const legalPages = ['impressum', 'datenschutz'] as const;
+export const legalPages = ['impressum', 'datenschutz', 'agb'] as const;
 
 export const contactEmail = 'rheinwegde@gmail.com';
 export const contactPhone = '+49 160 1168307';
@@ -34,6 +34,7 @@ export const ui = {
     'nav.research': 'Forschung',
     'nav.impressum': 'Impressum',
     'nav.datenschutz': 'Datenschutz',
+    'nav.agb': 'AGB',
     'home.title': 'RheinWeg',
     'home.tagline': 'Brücke zwischen Deutschland und China: Handel, Software und KI.',
     'og.imageAlt': 'RheinWeg — Brücke zwischen Deutschland und China: Handel, Software und KI.',
@@ -85,6 +86,7 @@ export const ui = {
     'nav.research': 'Research',
     'nav.impressum': 'Imprint',
     'nav.datenschutz': 'Privacy Policy',
+    'nav.agb': 'Terms',
     'home.title': 'RheinWeg',
     'home.tagline': 'Bridging Germany and China: trade, software and AI.',
     'og.imageAlt': 'RheinWeg — Bridging Germany and China: trade, software and AI.',
@@ -136,6 +138,7 @@ export const ui = {
     'nav.research': '研究',
     'nav.impressum': '法律声明',
     'nav.datenschutz': '隐私政策',
+    'nav.agb': '服务条款',
     'home.title': 'RheinWeg',
     'home.tagline': '连接德国与中国:贸易、软件与人工智能。',
     'og.imageAlt': 'RheinWeg:连接德国与中国的贸易、软件与人工智能桥梁。',
